@@ -29,16 +29,19 @@ ul {
 }
 
 .logo {
-    color: var(--link-tex-color);
+    color: var(--logo-text-color);
     font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     text-decoration: none;
 
 }
 
 .logo-header {
-    color: var(--logo-text-color);
+    color: var(--link-tex-color); 
 }
 
 /*site nav*/
@@ -98,7 +101,7 @@ ul {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
@@ -113,7 +116,7 @@ ul {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -123,7 +126,7 @@ ul {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -132,7 +135,7 @@ ul {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -144,7 +147,7 @@ ul {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -154,7 +157,7 @@ ul {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -164,7 +167,7 @@ ul {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -174,9 +177,10 @@ ul {
 .adress .item {
     color: var(--item-text-color);
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
@@ -184,9 +188,10 @@ ul {
 .adress .page {
     color: var(--caption-text-color);
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -199,9 +204,37 @@ ul {
 .section-text .butons {
     color: var(--link-tex-color);
     background-color: var(--logo-text-color);
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 .section-text .butons:hover,
 .section-text .butons:focus {
     color: var(--caption-text-color);
+}
+
+/*text-list*/
+
+.text-list .title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+}
+
+.text-list .list {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
 }
