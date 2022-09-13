@@ -51,7 +51,7 @@ ul {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ ul {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     text-decoration: none;
 
 }
@@ -84,7 +84,7 @@ ul {
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -195,7 +195,24 @@ ul {
     letter-spacing: 0.03em;
 }
 
+.foot .title {
+    color: var(--logo-text-color);
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-decoration: none;
+}
 
+.foot .caption {
+    color: var(--caption-text-color);
+}
+
+.foot {
+    background-color: var(--subject-text-color);
+}
 
 
 /*section.butons*/
@@ -203,15 +220,14 @@ ul {
 
 .section-text .butons {
     color: var(--link-tex-color);
-    background-color: var(--logo-text-color);
 
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .section-text .butons:hover,
@@ -221,20 +237,22 @@ letter-spacing: 0.03em;
 
 /*text-list*/
 
-.text-list .title {
+.text-list .title { 
+    color: var(--link-tex-color);
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 2.00;
-letter-spacing: 0.06em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
 }
 
 .text-list .list {
+    color: var(--lead-text-color);
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
